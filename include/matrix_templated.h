@@ -1,7 +1,3 @@
-//
-// Created by giuseppe on 12/03/19.
-//
-
 #ifndef MATRIX_MATRIX_TEMPLATED_H
 
 #include <vector>
@@ -11,7 +7,7 @@
 #include <stdexcept>
 #include <sstream>
 
-template <typename T>
+template <typename T=double>
 class Matrixt{
 
 private:

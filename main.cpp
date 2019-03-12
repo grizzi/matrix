@@ -35,6 +35,10 @@ int main() {
     Matrixt<double> Mdouble(3, 3, 1.9);
     std::cout << Mdouble;
 
+    // use default template (double)
+    Matrixt<> Mdefault(3, 3, 0.5);
+    std::cout << Mdefault;
+
     // specialized char matrix
     Matrixt<char> Mchar(3, 3, 'a');
     std::cout << Mchar;

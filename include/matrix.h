@@ -1,7 +1,3 @@
-//
-// Created by giuseppe on 11/03/19.
-//
-
 #ifndef MATRIX_MATRIX_H
 #define MATRIX_MATRIX_H
 
