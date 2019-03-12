@@ -1,5 +1,6 @@
 #include "include/matrix.h"
 
+// Constructors
 Matrix::Matrix(unsigned const rowSize, unsigned const colSize, double initValue)
     :   m_rowSize(rowSize),
         m_colSize(colSize)
@@ -11,6 +12,7 @@ Matrix::Matrix(unsigned const rowSize, unsigned const colSize, double initValue)
     }
 }
 
+// Matrix operators
 Matrix Matrix::operator+(Matrix & B) {
     Matrix sum(m_rowSize, m_colSize, 0.0);
     for (size_t i = 0; i < m_rowSize; i++)
@@ -18,6 +20,15 @@ Matrix Matrix::operator+(Matrix & B) {
             sum(i,j) = this->m_matrix[i][j] + B(i, j);
 
     return sum;
+}
+
+Matrix Matrix::transpose() {
+    Matrix t(m_rowSize, m_colSize, 0.0);
+    for(size_t i = 0; i < m_rowSize; i++)
+        for(size_t j = 0; j < m_colSize; j++)
+            t(i,j) = this->m_matrix[j][i];
+    return t;
+
 }
 
 double& Matrix::operator()(const unsigned &rowIndex, const unsigned &colIndex) {
