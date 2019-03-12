@@ -1,0 +1,8 @@
+/home/giuseppe/repos/matrix/build/CMakeFiles/install.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/list_install_components.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/rebuild_cache.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/edit_cache.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/matrix.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/main.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/install/strip.dir
+/home/giuseppe/repos/matrix/build/CMakeFiles/install/local.dir
